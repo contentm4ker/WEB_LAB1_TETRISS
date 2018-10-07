@@ -1,0 +1,57 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: url("../resources/images/background.png");
+    font-family: sans-serif;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+#wrap {
+    width: 485px;
+}
+
+.left{
+    width: 240px;
+    height: 400px;
+    float:left;
+}
+.right{
+    width: 240px;
+    height: 400px;
+    float:right;
+}
+
+#tetris{
+    margin-top: 25px;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+#startbutton {
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    background: #FFFAFA;
+    font-size: large;
+}
+
+#nextf {
+    margin-left: 15px;
+}
+
+#img1 {
+    margin-left: 15px;
+    margin-bottom: 100px;
+}

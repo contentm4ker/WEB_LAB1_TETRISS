@@ -1,0 +1,36 @@
+2018/09/12 13:41:37 [emerg] 9532#1500: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/12 13:41:56 [emerg] 15088#2280: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/12 13:41:57 [emerg] 13772#12600: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/12 13:41:57 [emerg] 11352#76: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/12 13:41:57 [emerg] 7652#2404: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/12 13:41:58 [emerg] 12488#15008: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/12 13:41:58 [emerg] 12468#7052: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/12 13:41:59 [emerg] 14360#13936: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/12 13:42:00 [emerg] 12996#2336: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/12 13:42:02 [emerg] 10092#15168: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/14 23:18:54 [emerg] 4644#9524: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/14 23:22:50 [emerg] 14192#13172: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/15 00:11:05 [notice] 14416#9248: signal process started
+2018/09/15 00:11:17 [notice] 6680#7796: signal process started
+2018/09/15 00:11:17 [error] 6680#7796: CreateFile() "C:\Users\grigo\Desktop\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/09/15 00:15:37 [emerg] 7752#14716: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:1
+2018/09/15 00:25:18 [emerg] 10908#13856: "server" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:96
+2018/09/15 00:26:40 [emerg] 11444#8560: invalid number of arguments in "ssl_ciphers" directive in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:54
+2018/09/15 00:28:20 [emerg] 7840#6560: invalid number of arguments in "ssl_ciphers" directive in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:54
+2018/09/15 00:28:41 [emerg] 9948#5956: BIO_new_file("./nginx.crt") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('./nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2018/09/15 00:29:37 [emerg] 3400#232: BIO_new_file("C:\Users\grigo\Desktop\nginx-1.14.0/conf/.
+ginx.crt") failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('C:\Users\grigo\Desktop\nginx-1.14.0/conf/.
+ginx.crt','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2018/09/15 00:32:36 [emerg] 6600#14680: BIO_new_file("C:\Users\grigo\Desktop\nginx-1.14.0/conf/
+ginx.crt") failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('C:\Users\grigo\Desktop\nginx-1.14.0/conf/
+ginx.crt','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2018/09/15 00:34:20 [emerg] 9956#8724: "listen" directive is not allowed here in C:\Users\grigo\Desktop\nginx-1.14.0/conf/nginx.conf:57
+2018/09/15 00:40:44 [notice] 13968#13088: signal process started
+2018/09/15 18:13:49 [notice] 14680#9320: signal process started
+2018/09/15 18:20:01 [error] 14748#7512: *4 CreateFile() "C:\Users\grigo\Desktop\nginx-1.14.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/"
+2018/09/15 18:42:14 [notice] 12984#2012: signal process started
+2018/09/15 19:25:19 [notice] 14836#7376: signal process started
+2018/09/16 13:47:59 [error] 16124#13464: *3 CreateFile() "C:\Users\grigo\Desktop\nginx-1.14.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/"
+2018/09/16 14:17:44 [notice] 9752#7756: signal process started
+2018/09/20 16:21:32 [error] 11852#13568: *3 CreateFile() "C:\Users\grigo\Desktop\nginx-1.14.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/"
+2018/09/20 16:31:27 [notice] 2484#10664: signal process started

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+</head>
+<body>
+    <div id="wrap">
+        <div class="left">
+            <h2 align="center"><div id="player" hidden>Player:</div></h2>
+            <h3 align="center"><div id="score" hidden></div></h3>
+            <h3 align="center"><div id="level" hidden></div></h3>
+            <h4 id="nextfsign" align="center" hidden>Следующая фигура</h4>
+            <canvas id="nextf" width="200" height="120" hidden></canvas>
+            <button id="startbutton" onclick="runTetris()">Старт</button>
+
+            <nav>
+                <ul class="topmenu">
+                    <li><a href="">Таблица рекордов</a>
+                        <ul class="submenu">
+                            <div id="scoretable"></div>
+                        </ul>
+                    </li>
+                    <li><a href="">Клавиши для управления</a>
+                        <ul class="submenu">
+                            <div id="keyboardkeys">
+                                <h4 align="center">Клавиши для управления:</h4>
+                                <ul type="square">
+                                    <li><strong>'A'</strong> - движение влево</li>
+                                    <li><strong>'D'</strong> - движение вправо</li>
+                                    <li><strong>'S'</strong> - ускорение движения вниз</li>
+                                    <li><strong>'Space'</strong> - "уронить" фигуру</li>
+                                    <li><strong>'Q'</strong> - поворот фигуры влево</li>
+                                    <li><strong>'E'</strong> - поворот фигуры вправо</li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <img id="img1" width="240" height="350" src="resources/images/gameover.png" hidden>
+            <canvas id="tetris" width="240" height="400" hidden></canvas>
+        </div>
+    </div>
+    <audio id="dropaudio" src="resources/sounds/drop_sound.wav" preload="auto"></audio>
+    <audio id="complaudio" src="resources/sounds/compl_sound.wav" preload="auto"></audio>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/scorepannel.css">
+    <script src="scripts/tetris.js"></script>
+</body>
+</html>
